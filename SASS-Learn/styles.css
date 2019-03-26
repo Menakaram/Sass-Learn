@@ -1,0 +1,29 @@
+@keyframes check_animate {
+  0% {
+    opacity: 0.2; }
+  100% {
+    opacity: 1; } }
+p, pre {
+  font-size: 200%; }
+
+h1 {
+  color: blue; }
+  h1 i {
+    font-weight: bold;
+    font-family: seriff;
+    font-size: 150%; }
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: cyan;
+  animation-name: check_animate;
+  animation-duration: 20s; }
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transform: rotate(30deg); }
+
+/*# sourceMappingURL=styles.css.map */

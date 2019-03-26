@@ -1,0 +1,42 @@
+@import "animations"
+
+@mixin transform($property)
+  transform: $property
+
+%true
+  font-size: 200%
+
+%false
+  font-size: 250%
+
+$pri-color: blue
+
+h1 
+  color: $pri-color
+  
+  i
+    font: 
+      weight: bold
+      family: seriff
+      size: 150%
+
+
+div
+  width: 100px
+  height: 100px
+  background-color: cyan
+  animation-name: check_animate
+  animation-duration: 20s
+
+.square
+  width: 100px
+  height: 100px
+  background-color: red
+  +transform(rotate(30deg))
+
+p
+  @extend %true
+
+pre
+  @extend %true
+  
