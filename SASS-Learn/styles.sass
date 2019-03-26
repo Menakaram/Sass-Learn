@@ -1,5 +1,11 @@
 @import "animations"
 
+@mixin div-color($height, $width)
+  @if (($height < $width) and ($width >= 20px))
+    color: green
+  @else
+    color: orange  
+
 @mixin transform($property)
   transform: $property
 
@@ -40,3 +46,13 @@ p
 pre
   @extend %true
   
+h6
+  +div-color(50px,15px)
+
+h5
+  +div-color(50px,75px)
+
+
+h2
+  +div-color(50px,25px)
+

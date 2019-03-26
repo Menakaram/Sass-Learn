@@ -26,4 +26,13 @@ div {
   background-color: red;
   transform: rotate(30deg); }
 
+h6 {
+  color: orange; }
+
+h5 {
+  color: green; }
+
+h2 {
+  color: orange; }
+
 /*# sourceMappingURL=styles.css.map */
